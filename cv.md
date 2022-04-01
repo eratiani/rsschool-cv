@@ -202,3 +202,15 @@ function stay() {
             }
     }
 }
+## Experience
+i am currently studying at public collage have done many projects there, no actual work experience so far.
+
+## Education
++ TSU  (Georgia)
++ The Rolling Scopes School (currently)
++ FreeCodeCamp / HTMLAcademy / Codecademy
++ Youtube
+### English
+Level: B2 / C1 (Upper-Intermediate / Advanced)
+
+I studied at school with advanced english classes, after that I got level-placed at the university. I practice a lot daily by reading and watching content in english. 
