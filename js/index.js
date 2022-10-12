@@ -11,8 +11,6 @@ function burger() {
     }
 }
 function dissapear() {
-    
-
         x.style.transform = "translateY(-500%)";
    
   }
