@@ -37,22 +37,22 @@ x.addEventListener("click", (e)=>{
     smoothScrollTar(e)
 })
 function smoothScrollTar(e) {
-    if (Number(e.target.id) === 1) {
+    if (Number(e.target.classlist.contains("1"))) {
         const targ = document.getElementById("header")
         smoothScroll(targ);
-    } else if(Number(e.target.id) === 2) {
+    } else if(Number(e.target.classlist.contains("2"))) {
         const targ = document.getElementById("mySkills")
         return smoothScroll(targ);
-    } else if(Number(e.target.id)===3) {
+    } else if(Number(e.target.classlist.contains("3"))) {
         const targ = document.getElementById("codeExample")
         return smoothScroll(targ);
-    } else if(Number(e.target.id)===4) {
+    } else if(Number(e.target.classlist.contains("4"))) {
         const targ = document.getElementById("experience")
         smoothScroll(targ);
-    } else if(Number(e.target.id)===5) {
+    } else if(Number(e.target.classlist.contains("5"))) {
         const targ = document.getElementById("contact")
         smoothScroll(targ);
-    } else if(Number(e.target.id)===6) {
+    } else if(Number(e.target.classlist.contains("6"))) {
         const target = document.getElementById("other")
         smoothScroll(target);
     } 
