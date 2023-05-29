@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_wrapper {
+    background-image: url(../images/bgTheme.jpg);
+   
+}
+.burger {
+    display: none;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgba(103, 154, 192, 0.4);
+    
+}
+.burger img {
+    max-width: 100%;
+    height: auto;
+}
+header p, h4{
+padding: 0.3rem  1rem;
+text-transform: capitalize;
+color: white;
+}
+.photoWrapper {
+    width: 30vw;
+    height: auto;
+    margin: auto;
+    background: transparent;
+}
+.photoWrapper img {
+    max-width: 100%;
+    height: auto;
+    background: transparent;
+}
+.header_introWrapper {
+    width: 50vw;
+    color: white;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+}
+.sec_1 {
+    margin: 235px auto;
+    color: white;
+    width: 25vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sec_1list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec_1list li{
+ margin: 10px;
+ font-size: 20px;
+ list-style: none;
+}
+.sec_2imgWrapper img{
+    margin-top: 20px;
+}
+.sec_3 p {
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.sec_3list ul {
+    list-style: none;
+}
+.sec_3list ul li a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: brown;
+}
+.sec_3list ul li a:hover{
+    
+    color: rgb(198, 53, 53);
+}
+
+.sec_4 h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer{
+    color: white;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footerLogoWrapper a {
+
+    display: inline-block;
+    width: 10vw;
+}
+.footerLogoWrapper a img {
+
+    max-width: 100%;
+    color: transparent;
+}
+.footerLogoWrapper2 a {
+
+    display: inline-block;
+    width: 10vw;
+}
+.footerLogoWrapper2 a img {
+
+    max-width: 100%;
+    color: transparent;
+}
+.smth {
+    margin: 235px auto;
+    color: white;
+    width: 35vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+.smth img {
+    max-width: 100%;
+}
+.burgerList  {
+display: flex;
+list-style: none;
+}
+.burgerList li a{
+display: inline-block;
+padding: 5px;
+text-decoration: none;
+color: white;
+transition: all 2s;
+}
+.burgerList li a:hover{
+    color: rgb(198, 53, 53);
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burgerList2 {
+    display: none;
+}
